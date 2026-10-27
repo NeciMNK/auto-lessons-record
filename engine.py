@@ -32,9 +32,9 @@ DAY_CHOICES = DAYS + ["Будни", "Каждый день"]
 WEEK_CHOICES = ["Каждая", "Верхняя", "Нижняя"]
 
 DEFAULT_CONFIG = {
-    "zoom_name": "Ошмарин Никита",
-    "last_name": "Ошмарин",
-    "first_name": "Никита",
+    "zoom_name": "",
+    "last_name": "",
+    "first_name": "",
     "middle_name": "",
     "mic_off": True,
     "camera_off": True,
@@ -50,13 +50,8 @@ DEFAULT_CONFIG = {
     "obs_folder": os.path.join(os.path.expanduser("~"), "Videos"),
     "obs_template": "{name} {date} {time}",
     "chrome_path": "",
-    "links": [
-        {"name": "Zoom 1", "url": "https://us05web.zoom.us/j/88979909606?pwd=vK8NVdYphoBg1L8ZJUbSwAxruQObIa.1"},
-        {"name": "Zoom 2", "url": "https://us05web.zoom.us/j/85805268106?pwd=6wP1cbr8JcuyDfEhJA3Aqazzigafle.1"},
-        {"name": "Zoom 3", "url": "https://us05web.zoom.us/j/86035651027?pwd=0VWvRDV8zFLSTc9aaQqbl9Dj2qsedx.1"},
-        {"name": "Мира 1", "url": "http://b23259.vr.mirapolis.ru/mira/miravr/5224692382"},
-    ],
-    "queue": ["Zoom 1", "Zoom 2", "Zoom 3"],
+    "links": [],
+    "queue": [],
     "pairs": [
         {"num": 1, "start": "08:30", "end": "10:00"},
         {"num": 2, "start": "10:10", "end": "11:40"},

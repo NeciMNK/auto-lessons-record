@@ -1,0 +1,12 @@
+# Личные настройки: расписание, ссылки с паролями, ФИО
+config.json
+config.json.tmp
+# Профиль Chrome с входами в Zoom
+chrome-zoom-profile/
+# Сборка exe
+build/
+dist/
+*.exe
+*.spec
+__pycache__/
+*.log
